@@ -1,0 +1,62 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Git Lab - Mad Libs Fun</title>
+    <meta name="description" content="${2}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <style type="text/css">
+        div{
+            font-family:Arial; 
+            font-size:large; 
+            line-height:3.5; 
+            padding-left: 50px; 
+            padding-right: 50px
+        }
+
+        button{
+            height:40px;
+            font-size: large;
+            margin-left: 45%;
+            margin-top:30px;
+        }
+    </style>
+</head> 
+<body>
+    <h1>Summer Camp</h1>
+    <div>
+        Once again, it is the time of year when parents can get rid of their <b id="adjective1">(adjective)</b> kids by sending them to a/an <b id="adjective2">(adjective)</b> summer camp. Today they are mostly "theme camps". There are football camps, computer camps, <b id="noun3">(noun)</b> camps, <b id="verbEndingInIng4">(verb ending in "ing")</b> camps, and special camps for children who like to make ceramic <b id="pluralNoun5">(plural noun)</b> with their <b id="pluralPartOfTheBody6">(part of the body (plural))</b>. These camps have classes in <b id="verbEndingInIng7">(verb ending in"ing")</b> and in remedial <b id="noun8">(noun)</b>. But all summer, camps feed the kids <b id="typeOfInexpensiveFood9">(type of inexpensive food)</b> and make them sleep in <b id="pluralNoun10">(plural noun)</b> or rickety <b id="pluralNoun11">(plural noun)</b>. Every kid has a counselor who is a big <b id="number12">(number)</b>-year-old <b id="noun13">(noun)</b> who doesn't know his <b id="partOfTheBody14">(part of the body)</b> from his <b id="noun15">(noun)</b>. But kids <b id="adverb16">(adverb)</b> put up with these indignities because they love camp and hate to go back to their own <b id="noun17">(noun)</b>.
+    </div>
+    <button onclick="changeTheWords();">MAGIC BUTTON</button>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="words.js"></script>
+    <script type="text/javascript">
+        function changeTheWords(){
+            $("#adjective1").text(adjective1); 
+            $("#adjective2").text(adjective2); 
+            $("#noun3").text(noun3); 
+            $("#verbEndingInIng4").text(verbEndingInIng4); 
+            $("#pluralNoun5").text(pluralNoun5); 
+            $("#pluralPartOfTheBody6").text(pluralPartOfTheBody6);
+            $("#verbEndingInIng7").text(verbEndingInIng7);
+            $("#noun8").text(noun8);
+            $("#typeOfInexpensiveFood9").text(typeOfInexpensiveFood9);
+            $("#pluralNoun10").text(pluralNoun10);
+            $("#pluralNoun11").text(pluralNoun11);
+            $("#number12").text(number12);
+            $("#noun13").text(noun13);
+            $("#partOfTheBody14").text(partOfTheBody14);
+            $("#noun15").text(noun15);
+            $("#adverb16").text(adverb16);
+            $("#noun17").text(noun17);
+        }
+    </script>
+
+</body>
+</html>
