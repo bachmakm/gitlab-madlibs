@@ -2,8 +2,8 @@
 var adjective1 = "change me"; 
 var adjective2 = "change me"; 
 var noun3 = "change me"; 
-var verbEndingInIng4 = "change me"; 
-var pluralNoun5 = "change me"; 
+var verbEndingInIng4 = "zonking"; 
+var pluralNoun5 = "laughs"; 
 var pluralPartOfTheBody6 = "change me"; 
 var verbEndingInIng7 = "change me"; 
 var noun8 = "change me"; 
