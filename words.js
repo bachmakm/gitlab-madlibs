@@ -1,6 +1,6 @@
 //replace 'change me', but keep the quotation marks!
-var adjective1 = "change me"; 
-var adjective2 = "change me"; 
+var adjective1 = "gargantuan"; 
+var adjective2 = "grumpy"; 
 var noun3 = "change me"; 
 var verbEndingInIng4 = "change me"; 
 var pluralNoun5 = "change me"; 
